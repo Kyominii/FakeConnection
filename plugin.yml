@@ -1,0 +1,33 @@
+name: FakeConnection
+main: com.aurigaming.fakeconnection.FakeConnection
+description: Plugin for administration
+version: 1.1
+author: Tedval88
+
+commands:
+ freco:
+  aliases: fakereco
+  description: A fake connection
+  usage: Use /freco into the game !
+  permission: fakeco.freco
+ fdeco:
+  aliases: fakedeco
+  description: A fake deconnection
+  usage: Use /fdeco into the game !
+  permission: fakeco.fdeco
+ fafk:
+  aliases: fakeafk
+  description: A fake AFK
+  usage: Use /fafk into the game !
+  permission: fakeco.fafk
+  
+permissions:
+ fakeco.freco:
+  default: op
+  description: You are allow to use /freco.
+ fakeco.fdeco:
+  default: op
+  description: You are allow to use /fdeco.
+ fakeco.fafk:
+  default: op
+  description: You are allow to use /fafk.
