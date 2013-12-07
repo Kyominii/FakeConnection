@@ -1,0 +1,11 @@
+########################################################
+#                 CONFIGURATION FILE                   #
+#                   FAKECONNECTION                     #
+#                      TEDVAL88                        #
+# http://dev.bukkit.org/bukkit-plugins/fakeconnection/ #
+########################################################
+
+Messages:
+   'Co':  joined the game.
+   'Deco':  left the game.
+   'AFK':  est désormais AFK
