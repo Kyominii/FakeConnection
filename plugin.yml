@@ -1,8 +1,9 @@
 name: FakeConnection
 main: com.aurigaming.fakeconnection.FakeConnection
 description: Plugin for administration
-version: 1.1
+version: 1.6
 author: Tedval88
+depend: [ProtocolLib]
 
 commands:
  freco:
@@ -20,6 +21,11 @@ commands:
   description: A fake AFK
   usage: Use /fafk into the game !
   permission: fakeco.fafk
+ fnafk:
+  aliases: fakenoafk
+  description: A fake No AFK
+  usage: Use /fnafk into the game !
+  permission: fakeco.fnafk
   
 permissions:
  fakeco.freco:
@@ -31,3 +37,6 @@ permissions:
  fakeco.fafk:
   default: op
   description: You are allow to use /fafk.
+ fakeco.fnafk:
+  default: op
+  description: You are allow to use /fnafk.
