@@ -6,6 +6,9 @@
 ########################################################
 
 Messages:
-   'Co':  joined the game.
-   'Deco':  left the game.
-   'AFK':  est désormais AFK
+   'Co': "joined the game."
+   'Deco': "left the game."
+   'AFK': "is now AFK."
+   'nAFK': "is no longer AFK."
+Others:
+   'mcstats': "true"
